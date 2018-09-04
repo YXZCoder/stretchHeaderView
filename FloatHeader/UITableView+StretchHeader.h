@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class observeManager;
 @interface UITableView (StretchHeader)
 
-@property (nonatomic, weak) UIView *stretchView;
+@property (nonatomic, weak)   UIView *stretchView;
 @property (nonatomic, assign) CGRect originFrame;
+@property (nonatomic, strong) observeManager *observe;
+
 
 - (void)addStretchHeaderView:(UIView *)stretchView;
 @end
+

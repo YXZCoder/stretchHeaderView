@@ -30,6 +30,8 @@
 		AD55C0A7213E2E8B00B2C8BA /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55C09B213E2E8B00B2C8BA /* MASViewAttribute.m */; };
 		AD55C0A8213E2E8B00B2C8BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD55C09C213E2E8B00B2C8BA /* README.md */; };
 		AD55C0AD213E573000B2C8BA /* UITableView+StretchHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55C0AC213E573000B2C8BA /* UITableView+StretchHeader.m */; };
+		AD55C0B0213E6E8900B2C8BA /* StretchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55C0AF213E6E8900B2C8BA /* StretchViewController.m */; };
+		AD55C0B3213E74C500B2C8BA /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55C0B2213E74C500B2C8BA /* BaseTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +100,10 @@
 		AD55C09C213E2E8B00B2C8BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AD55C0AB213E573000B2C8BA /* UITableView+StretchHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+StretchHeader.h"; sourceTree = "<group>"; };
 		AD55C0AC213E573000B2C8BA /* UITableView+StretchHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+StretchHeader.m"; sourceTree = "<group>"; };
+		AD55C0AE213E6E8900B2C8BA /* StretchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StretchViewController.h; sourceTree = "<group>"; };
+		AD55C0AF213E6E8900B2C8BA /* StretchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StretchViewController.m; sourceTree = "<group>"; };
+		AD55C0B1213E74C500B2C8BA /* BaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		AD55C0B2213E74C500B2C8BA /* BaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,10 @@
 				AD55C041213D29A900B2C8BA /* AppDelegate.m */,
 				AD55C043213D29A900B2C8BA /* ViewController.h */,
 				AD55C044213D29A900B2C8BA /* ViewController.m */,
+				AD55C0B1213E74C500B2C8BA /* BaseTableView.h */,
+				AD55C0B2213E74C500B2C8BA /* BaseTableView.m */,
+				AD55C0AE213E6E8900B2C8BA /* StretchViewController.h */,
+				AD55C0AF213E6E8900B2C8BA /* StretchViewController.m */,
 				AD55C0AB213E573000B2C8BA /* UITableView+StretchHeader.h */,
 				AD55C0AC213E573000B2C8BA /* UITableView+StretchHeader.m */,
 				AD55C07B213D4A2F00B2C8BA /* TestHeadView.h */,
@@ -361,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD55C07D213D4A2F00B2C8BA /* TestHeadView.m in Sources */,
+				AD55C0B3213E74C500B2C8BA /* BaseTableView.m in Sources */,
 				AD55C045213D29A900B2C8BA /* ViewController.m in Sources */,
 				AD55C0A2213E2E8B00B2C8BA /* MASLayoutConstraint.m in Sources */,
 				AD55C050213D29AA00B2C8BA /* main.m in Sources */,
@@ -374,6 +385,7 @@
 				AD55C09F213E2E8B00B2C8BA /* ViewController+MASAdditions.m in Sources */,
 				AD55C0A6213E2E8B00B2C8BA /* MASViewConstraint.m in Sources */,
 				AD55C09E213E2E8B00B2C8BA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				AD55C0B0213E6E8900B2C8BA /* StretchViewController.m in Sources */,
 				AD55C0A5213E2E8B00B2C8BA /* MASConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
