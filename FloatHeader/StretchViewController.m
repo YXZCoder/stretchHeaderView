@@ -34,7 +34,7 @@
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
 
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, 200)];
-    imageView.image = [UIImage imageNamed:@"photo.jpg"];
+    imageView.image = [UIImage imageNamed:@"photo.jpeg"];
     [self.tableView addStretchHeaderView:imageView];
 
     TestHeadView *header = [[TestHeadView alloc] initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, 200)];

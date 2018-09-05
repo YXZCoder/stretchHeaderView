@@ -16,7 +16,6 @@
 		AD55C05A213D29AB00B2C8BA /* FloatHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55C059213D29AB00B2C8BA /* FloatHeaderTests.m */; };
 		AD55C065213D29AB00B2C8BA /* FloatHeaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55C064213D29AB00B2C8BA /* FloatHeaderUITests.m */; };
 		AD55C07D213D4A2F00B2C8BA /* TestHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55C07C213D4A2F00B2C8BA /* TestHeadView.m */; };
-		AD55C07F213D4D3100B2C8BA /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD55C07E213D4D3100B2C8BA /* photo.jpg */; };
 		AD55C09D213E2E8B00B2C8BA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AD55C081213E2E8B00B2C8BA /* LICENSE */; };
 		AD55C09E213E2E8B00B2C8BA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55C084213E2E8B00B2C8BA /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		AD55C09F213E2E8B00B2C8BA /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55C08D213E2E8B00B2C8BA /* ViewController+MASAdditions.m */; };
@@ -32,6 +31,7 @@
 		AD55C0AD213E573000B2C8BA /* UITableView+StretchHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55C0AC213E573000B2C8BA /* UITableView+StretchHeader.m */; };
 		AD55C0B0213E6E8900B2C8BA /* StretchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55C0AF213E6E8900B2C8BA /* StretchViewController.m */; };
 		AD55C0B3213E74C500B2C8BA /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55C0B2213E74C500B2C8BA /* BaseTableView.m */; };
+		AD55C0B5213EA88000B2C8BA /* photo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD55C0B4213EA88000B2C8BA /* photo.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +70,6 @@
 		AD55C066213D29AB00B2C8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD55C07B213D4A2F00B2C8BA /* TestHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestHeadView.h; sourceTree = "<group>"; };
 		AD55C07C213D4A2F00B2C8BA /* TestHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestHeadView.m; sourceTree = "<group>"; };
-		AD55C07E213D4D3100B2C8BA /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
 		AD55C081213E2E8B00B2C8BA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AD55C083213E2E8B00B2C8BA /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		AD55C084213E2E8B00B2C8BA /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
@@ -104,6 +103,7 @@
 		AD55C0AF213E6E8900B2C8BA /* StretchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StretchViewController.m; sourceTree = "<group>"; };
 		AD55C0B1213E74C500B2C8BA /* BaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
 		AD55C0B2213E74C500B2C8BA /* BaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		AD55C0B4213EA88000B2C8BA /* photo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +167,7 @@
 				AD55C0AC213E573000B2C8BA /* UITableView+StretchHeader.m */,
 				AD55C07B213D4A2F00B2C8BA /* TestHeadView.h */,
 				AD55C07C213D4A2F00B2C8BA /* TestHeadView.m */,
-				AD55C07E213D4D3100B2C8BA /* photo.jpg */,
+				AD55C0B4213EA88000B2C8BA /* photo.jpeg */,
 				AD55C046213D29A900B2C8BA /* Main.storyboard */,
 				AD55C049213D29AA00B2C8BA /* Assets.xcassets */,
 				AD55C04B213D29AA00B2C8BA /* LaunchScreen.storyboard */,
@@ -343,7 +343,7 @@
 				AD55C0A8213E2E8B00B2C8BA /* README.md in Resources */,
 				AD55C04D213D29AA00B2C8BA /* LaunchScreen.storyboard in Resources */,
 				AD55C04A213D29AA00B2C8BA /* Assets.xcassets in Resources */,
-				AD55C07F213D4D3100B2C8BA /* photo.jpg in Resources */,
+				AD55C0B5213EA88000B2C8BA /* photo.jpeg in Resources */,
 				AD55C048213D29A900B2C8BA /* Main.storyboard in Resources */,
 				AD55C09D213E2E8B00B2C8BA /* LICENSE in Resources */,
 			);
