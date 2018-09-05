@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.author       = { "YXZCoder" => "120246443@qq.com"}
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/YXZCoder/stretchHeaderView.git", :tag => s.version }
-  s.source_files = "stretchHeaderView/Code/*.{h,m}"
+  s.source_files = "Code/*.{h,m}"
   s.requires_arc = true
 
 
