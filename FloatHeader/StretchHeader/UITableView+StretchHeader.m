@@ -74,7 +74,7 @@
 }
 
 - (void)mf_dealloc{
-    if ([self hasKey:@"contentOffset"]) {
+    if ([self hasKey:@"contentOffset"] && self.observe) {
         [self removeObserver:self.observe forKeyPath:@"contentOffset"];
     }
 
@@ -121,7 +121,7 @@
     if (self.tableHeaderView) {
         [self insertSubview:stretchView belowSubview:self.tableHeaderView];
     } else {
-        [self addSubview:stretchView];
+        [self insertSubview:stretchView atIndex:0];
     }
     self.observe = [[observeManager alloc] init];
     self.observe.scrollView = self;
